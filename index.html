@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,93 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #333; }
-        .hero { background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC); color: white; padding: 100px 0; }
-        .hero h1 { font-weight: 800; }
-        .section-title { font-weight: 800; margin-bottom: 40px; color: #0052D4; text-transform: uppercase; font-size: 1.5rem; letter-spacing: 1px;}
-        .card { border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.3s; height: 100%;}
-        .card:hover { transform: translateY(-5px); }
-        .badge-skill { margin: 5px; border-radius: 8px; }
-        .timeline-item { border-left: 3px solid #0052D4; padding-left: 20px; margin-bottom: 30px; position: relative; }
-        .timeline-item::before { content: ''; position: absolute; left: -10px; top: 0; width: 17px; height: 17px; background: #0052D4; border-radius: 50%; }
-        .timeline-date { color: #6c757d; font-weight: 600; font-size: 0.9rem; }
-        a { color: #0052D4; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC);
+            color: white;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-weight: 800;
+        }
+
+        .section-title {
+            font-weight: 800;
+            margin-bottom: 40px;
+            color: #0052D4;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .badge-skill {
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        .timeline-item {
+            border-left: 3px solid #0052D4;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 0;
+            width: 17px;
+            height: 17px;
+            background: #0052D4;
+            border-radius: 50%;
+        }
+
+        .timeline-date {
+            color: #6c757d;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #0052D4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
+
 <body>
 
     <header class="hero text-center">
         <div class="container">
             <h1 class="display-4 mb-3">Ciao! 👋 Sono Angie Melissa Albitres Farro</h1>
-            <p class="lead mb-4">Studentessa di Informatica @ UPO | Junior Full-Stack Developer</p>
-            <a href="https://github.com/angie-albi" target="_blank" class="btn btn-outline-light btn-lg m-2"><i class="fab fa-github"></i> GitHub</a>
-            <a href="mailto:albitres2004@gmail.com" class="btn btn-light btn-lg m-2"><i class="fas fa-envelope text-primary"></i> Contattami</a>
+            <p class="lead mb-4">Studentessa di Informatica @ UPO</p>
+            <a href="https://github.com/angie-albi" target="_blank" class="btn btn-outline-light btn-lg m-2"><i
+                    class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:albitres2004@gmail.com" class="btn btn-light btn-lg m-2"><i
+                    class="fas fa-envelope text-primary"></i> Contattami</a>
         </div>
     </header>
 
@@ -39,8 +105,11 @@
                 <div class="col-md-8 mx-auto text-center">
                     <h2 class="section-title">Chi Sono</h2>
                     <p class="fs-5">
-                        Sono una sviluppatrice in formazione con una forte passione per la creazione di software pulito, strutturato e testato. 
-                        Studentessa di Informatica al 3º anno, unisco un solido background tecnico (OOP, Web Development) a una forte comprensione dei processi organizzativi aziendali, grazie al mio diploma in Sistemi Informativi Aziendali.
+                        Sono una sviluppatrice in formazione con una forte passione per la creazione di software pulito,
+                        strutturato e testato.
+                        Studentessa di Informatica al 3º anno, unisco un solido background tecnico (OOP, Web
+                        Development) a una forte comprensione dei processi organizzativi aziendali, grazie al mio
+                        diploma in Sistemi Informativi Aziendali.
                     </p>
                 </div>
             </div>
@@ -50,21 +119,33 @@
             <h2 class="section-title">Tech Stack</h2>
             <div class="mb-4">
                 <h4>Linguaggi</h4>
-                <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" class="badge-skill">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/HTML5_/_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" class="badge-skill">
+                <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/HTML5_/_CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                    class="badge-skill">
             </div>
             <div>
                 <h4>Framework & Strumenti</h4>
-                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/Java_Swing-ED8B00?style=for-the-badge&logo=java&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=testinglibrary&logoColor=white" class="badge-skill">
-                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" class="badge-skill">
+                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/Java_Swing-ED8B00?style=for-the-badge&logo=java&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=testinglibrary&logoColor=white"
+                    class="badge-skill">
+                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
+                    class="badge-skill">
             </div>
         </section>
 
@@ -75,32 +156,40 @@
                     <div class="card p-4">
                         <h4>🏋️‍♀️ Trainly</h4>
                         <h6 class="text-muted">Node.js, Express, SQLite, Passport.js, MVC</h6>
-                        <p>Piattaforma E-commerce Fitness Full-Stack. Progettazione DB relazionale per catalogo prodotti e carrello. Autenticazione sicura con Passport.js e Bcrypt.</p>
-                        <a href="https://github.com/angie-albi/trainly" target="_blank" class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
+                        <p>Piattaforma E-commerce Fitness Full-Stack. Progettazione DB relazionale per catalogo prodotti
+                            e carrello. Autenticazione sicura con Passport.js e Bcrypt.</p>
+                        <a href="https://github.com/angie-albi/trainly" target="_blank" class="mt-auto fw-bold">Vedi su
+                            GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
                         <h4>🏥 TMS - Triage Management System</h4>
                         <h6 class="text-muted">Java, JavaFX, SQLite, JDBC, JUnit</h6>
-                        <p>Software gestionale ospedaliero sviluppato in team. Gestione dell'intero ciclo di vita del software: analisi requisiti, progettazione, interfaccia UI e test (JUnit).</p>
-                        <a href="https://github.com/angie-albi/tms-triage-management-system" target="_blank" class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
+                        <p>Software gestionale ospedaliero sviluppato in team. Gestione dell'intero ciclo di vita del
+                            software: analisi requisiti, progettazione, interfaccia UI e test (JUnit).</p>
+                        <a href="https://github.com/angie-albi/tms-triage-management-system" target="_blank"
+                            class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
                         <h4>🛒 Gestore Liste Articoli</h4>
                         <h6 class="text-muted">Java, Java Swing, Pattern MVC, JUnit</h6>
-                        <p>Desktop App per la gestione di inventari. Netta separazione tra logica di business e GUI tramite pattern MVC. Gestione eccezioni e Test di Unità.</p>
-                        <a href="https://github.com/angie-albi/gestore_liste_articoli" target="_blank" class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
+                        <p>Desktop App per la gestione di inventari. Netta separazione tra logica di business e GUI
+                            tramite pattern MVC. Gestione eccezioni e Test di Unità.</p>
+                        <a href="https://github.com/angie-albi/gestore_liste_articoli" target="_blank"
+                            class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
                         <h4>📇 Gestore Rubriche</h4>
                         <h6 class="text-muted">Java, Java Swing, JUnit</h6>
-                        <p>Applicazione Desktop orientata agli oggetti (OOP) per la gestione avanzata dei contatti, focalizzata su design pattern e affidabilità del codice.</p>
-                        <a href="https://github.com/angie-albi/gestorerubriche" target="_blank" class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
+                        <p>Applicazione Desktop orientata agli oggetti (OOP) per la gestione avanzata dei contatti,
+                            focalizzata su design pattern e affidabilità del codice.</p>
+                        <a href="https://github.com/angie-albi/gestorerubriche" target="_blank"
+                            class="mt-auto fw-bold">Vedi su GitHub <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -114,13 +203,15 @@
                         <div class="timeline-date">Nov 2024 - Dic 2025</div>
                         <h5>Formatrice Junior in ambito Digitale</h5>
                         <p class="text-muted">Fondazione Mondo Digitale, Torino</p>
-                        <p>Conduzione di laboratori IT su logica di programmazione, Cloud e IA. Supporto pratico agli studenti nell'apprendimento.</p>
+                        <p>Conduzione di laboratori IT su logica di programmazione, Cloud e IA. Supporto pratico agli
+                            studenti nell'apprendimento.</p>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">Feb 2025 - Dic 2025</div>
                         <h5>Tutor Didattico e Supporto Studenti</h5>
                         <p class="text-muted">Università del Piemonte Orientale, Vercelli</p>
-                        <p>Orientamento in itinere e supporto nell'organizzazione del piano di studi. Supporto a studenti con disabilità/DSA.</p>
+                        <p>Orientamento in itinere e supporto nell'organizzazione del piano di studi. Supporto a
+                            studenti con disabilità/DSA.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -129,7 +220,8 @@
                         <div class="timeline-date">2023 - In corso</div>
                         <h5>Laurea Triennale in Informatica</h5>
                         <p class="text-muted">Università del Piemonte Orientale, Vercelli</p>
-                        <p>Media voti: 26/30. Esami principali: Paradigmi di Programmazione (30), Basi di Dati (30), Ingegneria del Software (28).</p>
+                        <p>Media voti: 26/30. Esami principali: Paradigmi di Programmazione (30), Basi di Dati (30),
+                            Ingegneria del Software (28).</p>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-date">2018 - 2023</div>
@@ -145,15 +237,18 @@
     <footer class="bg-dark text-white text-center py-4 mt-5">
         <div class="container">
             <h4>Mettiamoci in contatto!</h4>
-            <p><i class="fas fa-map-marker-alt"></i> Saluggia, Vercelli | <i class="fas fa-phone"></i> +39 3896114629</p>
+            <p><i class="fas fa-map-marker-alt"></i> Saluggia, Vercelli | <i class="fas fa-phone"></i> +39 3896114629
+            </p>
             <div class="mt-3">
                 <a href="mailto:albitres2004@gmail.com" class="text-white me-3 fs-4"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/angie-albi" target="_blank" class="text-white fs-4"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/angie-albi" target="_blank" class="text-white fs-4"><i
+                        class="fab fa-github"></i></a>
             </div>
-            <p class="mt-4 mb-0 text-secondary">&copy; 2026 Angie Melissa Albitres Farro. Realizzato con HTML, CSS & Bootstrap.</p>
+            <p class="mt-4 mb-0 text-secondary">&copy; 2026 Angie Melissa Albitres Farro</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
