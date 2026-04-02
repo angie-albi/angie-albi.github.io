@@ -1,0 +1,86 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-weight: 800;
+}
+
+.section-title {
+    font-weight: 800;
+    margin-bottom: 40px;
+    color: #0052D4;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.badge-skill {
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.timeline-item {
+    border-left: 3px solid #0052D4;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 17px;
+    height: 17px;
+    background: #0052D4;
+    border-radius: 50%;
+}
+
+.timeline-date {
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #0052D4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-light {
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
